@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="emoji.js" defer></script>
+  <script src="./emoji.js" defer></script>
   <title>Emoji Stories App</title>
 
 </head>
 <h1>Emoji Stories App</h1>
 <body>
-  <div>Story: </div></br>
+  <div id="story">Story: </div></br>
   <form>
-    <input type ="number" name = "story-length-input" placeholder = 0> 
-    <button type="submit" name = "generate-story-btn">Generate Emoji Story</button>
+    <input type ="number" id = "story-length-input" placeholder = 0> 
+    <button type="button" id = "generate-story-btn">Generate Emoji Story</button>
   </br>
   </br>
-    <input type = "text" name ="description-input" placeholder ="Story Description...">
-    <button type = "submit" name="submit-description-btn">Submit Description</button>
+    <input type = "text" id ="description-input" placeholder ="Story Description...">
+    <button type = "submit" id="submit-description-btn">Submit Description</button>
   </form>
 </body>
 </html>
